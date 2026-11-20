@@ -372,6 +372,16 @@ html[lang=en] .amtwrap input{padding-inline-start:44px!important}
   .fab{right:max(24px,calc(50% - 516px))}
   .row,.od{min-height:76px}
 }
+
+/* ---- Written straight on the khata paper (no white boxes) ---- */
+.row,.od,.entry{background:transparent!important;border:0!important;border-bottom:1.5px solid rgba(31,71,184,.25)!important;border-radius:0!important;box-shadow:none!important;margin-bottom:0;padding-inline-start:18px}
+.od{border-inline-start:4px solid var(--saffron)!important;padding-inline-start:12px}
+.od.hot{border-inline-start-color:var(--owe)!important} .od.ok{border-inline-start-color:#c9c6bd!important}
+.list,#overdue-list{gap:0!important}
+.row:hover,.od:hover,.entry:hover{background:rgba(255,255,255,.45)!important}
+.month{margin-top:18px}
+.ringwrap .bg{stroke:rgba(0,0,0,.08)}
+@media (min-width:900px){#customer-list,#overdue-list{column-gap:40px!important}}
 @media (prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}
 
 @media (min-width:700px){ #total-outstanding{font-size:46px} }
